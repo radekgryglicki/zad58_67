@@ -1,0 +1,12 @@
+table,tr,td
+{
+    border-collapse: separate;
+    border: 1px solid black;
+    border-spacing: 1mm;
+}
+
+img
+{
+width:auto;
+height:auto;    
+}

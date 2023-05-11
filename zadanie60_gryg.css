@@ -1,0 +1,32 @@
+div
+{
+    background-color: green;
+    
+    
+}
+
+div#blok1_gryglicki:hover
+{
+    background-color: orange;
+    width:612px;
+    font-size:19mm;
+}
+
+div#blok2_gryglicki:hover
+{
+    background-color: greenyellow;
+    width:612px;
+    font-size:19mm;
+}
+
+div#blok3_gryglicki:hover
+{
+    background-color: gold;
+    width:612px;
+    font-size:19mm;
+}
+
+
+
+/* hover: - dotyczy odsyłaczy, nad którymi znajduje się kursor (wskaźnik myszy)
+Radek Gryglicki */

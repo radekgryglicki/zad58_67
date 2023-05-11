@@ -1,0 +1,27 @@
+div
+{
+    font-size:2cm;
+    color:red;
+}
+
+A
+{
+font-size: 18pt;
+text-decoration: none;
+}
+A:link
+{
+color: blue;
+}
+A:visited
+{
+color: green;
+}
+A:hover
+{
+color: red;
+text-decoration: underline;
+}
+/*text-decoration: none; - bez zmian czyli tekst bez podkreśleń, przekreśleń itp
+  text-decoration: underline; dekoracja podkreślenia
+Radek Gryglicki */

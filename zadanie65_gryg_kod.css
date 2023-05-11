@@ -1,0 +1,105 @@
+div#pierwszy_gryglicki
+{
+	width:788pt;
+	margin-left: 350px;
+    margin-right: auto;
+	background-color:yellow;
+	border: 3px solid red;
+	border-radius:11px
+}
+
+div#drugi_gryglicki
+{
+	margin:15px 0 15px 0;
+	width:988pt;
+	margin-left: auto;
+    margin-right: 200px;
+	background-color:green;
+	border-radius: 16px;
+	border: 5px navy solid;
+}
+
+div#trzeci_gryglicki
+{
+	width:1188pt;
+	margin-left: 150px;
+    margin-right: auto;
+	background-color:blue;
+	border-radius:11px;
+	border: 7px yellow solid;
+	margin:15px 0 15px 0;
+}
+
+div > p
+{
+	font-size:10pt;
+}
+
+div > p:first-child
+{
+	font-size:9mm;
+	font-style:italic;
+}
+/*Radek Gryglicki*/
+<html>
+
+<head>
+<link rel="stylesheet" type="text/css" href="pedz_z65_kod.css">
+</head>
+
+<body>
+<div id="pierwszy_gryglicki">
+<p>Pierwszy akapit/pierwszy DIV --> Gryglicki<br>
+nazwa ID akapitu id="pierwszy_gryglicki"</p>
+<p>Drugi akapit pierwszy DIV<br>
+pierwszy akapit --> p:first-child{font-size:9mm;;font-style:italic;}<br>
+bo numer w dzienniku parzysty<br>
+pozostałe akapity --> p{font-size:10} bo numer parzysty<br>
+szerokość bloku = 700+(22*4) = 788pt<br>
+pierwszy DIV --> kolor jasnozielony
+</p>
+<p>
+Trzeci akapit/pierwszy DIV<br>
+pierwszy DIV --> obramowanie czarny DIV<br>
+pierwszy DIV --> obramowanie gubość 3px, ciągła(solid)<br>
+pierwszy DIV --> r1 = 7mm + 4(radek) = 11mm
+</p>
+</div>
+
+<div id="drugi_gryglicki">
+<p>Pierwszy akapit/drugi DIV --> radek<br>
+nazwa ID akapitu id="drugi_gryglicki"</p>
+
+<p>
+Drugi akapit drugi DIV<br>
+drugi DIV --> kolor jasnoniebieski<br>
+</p>
+<p>
+trzeci akapit drugi DIV<br>
+Drugi DIV --> obramowanie granatowy DIV<br>
+Drugi DIV --> obramowanie gubość 5px, ciągla(solid)<br>
+Drugi DIV -> r2= 7mm + 9(Gryglicki) = 16mm<br>
+</p>
+
+</div>
+
+<div id="trzeci_gryglicki">
+<p>Pierwszy akapit/trzeci DIV --> 1P<br>
+nazwa ID akapitu id="trzeci_gryglicki"</p>
+
+<p>
+Drugi akapit drugi DIV<br>
+drugi DIV --> kolor różowy<br>
+</p>
+<p>
+trzeci akapit drugi DIV<br>
+Drugi DIV --> obramowanie fiolet DIV<br>
+Drugi DIV --> obramowanie gubość 7px, ciągla(solid)<br>
+Drugi DIV -> r3= 7mm + 4(Kwiecień) = 11mm<br>
+</p>
+
+</div>
+
+</body>
+<!--Radek Gryglicki -->
+</html>

@@ -1,0 +1,55 @@
+<html>
+<head>
+<meta charset="UTF-8">
+</head>
+<body>
+<h1>Kod Wewnętrzny</h1>
+<ol type="1">
+<li>
+<h1>Gdzie jest wstawiany</h1>
+</li>
+Wstawia się zawsze w części nagłówkowej dokumentu (pomiędzy znacznikami &nbsp<&nbsphead&nbsp>&nbsp a &nbsp<&nbsp/&nbsphead&nbsp>&nbsp). <br>
+Można go zastosować, gdy elementy które pragniemy poddać formatowaniu, <br>
+występują wielokrotnie na stronie i wszystkim chcemy nadać takie same atrybuty (inne niż domyślne).
+<li>
+<h1>Składnia teoretyczna</h1>
+</li>
+<table border="4">
+<tr>
+<td>
+&nbsp<&nbsphead&nbsp>&nbsp<br>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp(...)<br>
+&nbsp&nbsp&nbsp&nbsp<&nbspstyle type="text/css"><br>
+&nbsp&nbsp&nbsp/* <&nbsp!&nbsp[&nbspCDATA&nbsp[ */<br>
+&nbsp&nbsp&nbsp&nbsp&nbspselektor1&nbsp { cecha: wartość; cecha2: wartość2... }<br>
+&nbsp&nbsp&nbsp&nbsp&nbspselektor2&nbsp { cecha: wartość; cecha2: wartość2... }<br>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp(...)<br>
+&nbsp&nbsp&nbsp&nbsp/* ]]> */<br>
+&nbsp&nbsp&nbsp&nbsp<&nbsp/&nbspstyle&nbsp><br>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp(...)<br>
+&nbsp<&nbsp/&nbsphead&nbsp>&nbsp
+</td>
+</tr>
+
+</table>
+<li>
+<h1>Jakie mogą być selektory,	</h1>
+</li>
+Selektorem może być praktycznie dowolny znacznik, <br>
+np. p (akapit), h1 (tytuł), td (komórka tabeli) i inne. <br>
+To właśnie elementom, które znajdują się w kodzie źródłowym,<br> 
+pomiędzy tymi znacznikami, nadajemy atrybuty formatowania opisane w arkuszu.
+<li>
+<h1>Jakie mogą być cechy i wartości.</h1>
+</li>
+Jako "cecha" (w deklaracji stylu - powyżej) <br>
+należy wpisać o jakie konkretnie atrybuty formatowania nam chodzi <br>
+(opisane w kolejnych rozdziałach).<br>
+Natomiast jako wyraz "wartość" wpisujemy dokładną wartość atrybutu.<br>
+Zwróć uwagę, że jednemu selektorowi możemy nadać kilka atrybutów (cech). <br>
+Są one wtedy rozdzielone średnikami
+
+
+</ol>
+</body>
+</html>

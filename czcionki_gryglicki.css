@@ -1,0 +1,94 @@
+p#uk1
+{
+    text-align:right;
+    color:red;
+    font-size:1cm;  
+}
+
+p#ak2
+{
+    text-align:right;
+    color:blue;
+    font-size: 23px;
+}
+
+body
+{
+    
+}
+
+div#ak1
+{
+    font-style:italic;
+    font-family:serif;
+    color:rgb(255, 160, 0);
+    line-height:1cm;
+    word-spacing:12px;
+    letter-spacing:5ex;
+    text-indent:2cm; 
+}
+
+span#z1
+{
+    font-weight:200;
+    font-size:x-small;
+}
+
+span#z2
+{
+    font-size:medium;
+    font-weight:700;
+    text-decoration: overline;
+    font-variant:normal;
+    text-transform:uppercase;
+}
+
+span#z3
+{
+    font-size:large;
+    font-weight:900;
+    
+
+}
+
+
+
+
+
+
+
+
+
+div#ak2
+{
+    font-style:oblique;
+    font-family:sans-serif;
+    color:rgb(50,205,50);
+    line-height:15mm;
+    word-spacing:10pt;
+    letter-spacing:0.5cm;
+    text-indent:25mm; 
+}
+
+span#z4
+{
+    font-weight:200;
+    font-size:x-small;
+}
+
+span#z5
+{
+    font-size:medium;
+    font-weight:700;
+    text-decoration:line-through;
+    font-variant:normal;   
+}
+
+span#z6
+{
+    font-size:large;
+    font-weight:900;
+    text-transform:capitalize;
+    
+
+}

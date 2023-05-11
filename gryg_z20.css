@@ -1,0 +1,26 @@
+<html>
+<head>
+</head>
+<body>
+
+  <div style="width:100%; height:40%; background-color:#FFFDD0">
+    <p style="color: orange; font-size: 20pt; font-familiy: Arial;">paragraf kolerem pomarańczwym o rozmiarze 20pt, czcionką Arial<br>Informatyka kiedyś była dziedziną matematyki</p>
+  </div>
+  
+  <div style="width: 80%; height:15%;background-color:#FF00FF">
+    <p><i style="color: green; font-size:20pt; font-weight: bold;">Informatyka Zajmuje się rozwiązywaniem problemów obliczeniowych i </i><strike style="font-color: red; font-size:20pt;"> opisem </strike><u style="font-color: red; font-size:20pt; font-decoration: overline;">procesów algorytmicznych</u></p>
+  </div>
+  <br>
+  <div style="width:60%; height:35%; background-color:#C0D727;">
+     <h1 style="color: blue; font-size:30pt; text-decoration: underline;">Popularne edytory tekstów </h1>
+ <ol>
+ <li style="color: blue; font-size:25pt;"> Microsoft Word </li>
+ <li style="color: red; font-size:20pt;"> LibreOffice Writer </li>
+ <li style="color: gray; font-size:15pt;"> WPS Office Writer </li>
+ </ol>
+  </div>
+
+ </body>
+
+</html>
+<!--Radek Gryglicki-->

@@ -1,0 +1,28 @@
+p
+{
+font-size:14pt;
+}
+p:first-child
+{
+font-size:10pt;
+font-style:italic;
+}
+/*Radek Gryglicki*/
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="zadanie63_gryg.css">
+</head>
+<body>
+<div>
+ <p>Pierwszy akapit w ramach pierwszego bloku DIV</p>
+ <p>Drugi akapit w ramach pierwszego bloku DIV</p>
+ <p>Trzeci akapit w ramach pierwszego bloku DIV Gryglicki</p>
+</div>
+<div>
+ <p>Pierwszy akapit w ramach drugiego bloku DIV</p>
+ <p>Drugi akapit w ramach drugiego bloku DIV</p>
+ <p>Trzeci akapit w ramach drugiego bloku DIV    Radek</p>
+</div>
+</body>
+<!--Radek Gryglicki -->
+</html>

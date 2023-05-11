@@ -1,0 +1,52 @@
+p:first-letter
+{
+	font-size: 123pt;
+	color: purple;
+}
+p
+{
+	font-size:25pt;
+	color:blue;
+}
+
+h1
+{
+	color:red;
+	font-size:30pt;
+}
+h1:first-letter
+{
+	color:orange;
+	font-size:125px;
+}
+p#linia:first-line
+{
+  color:red;
+  font-size:15pt;
+}
+p#linia
+{
+	font-size:14pt;
+	color:turquoise;
+}
+/*Radek Gryglicki*/
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="zadanie67_gryg_kod.css">
+</head>
+
+<body>
+<p>
+Program komputerowy (ang. computer program) – sekwencja symboli opisująca realizowanie obliczeń zgodnie z pewnymi regułami zwanymi językiem programowania[1]. Program jest zazwyczaj wykonywany przez komputer (np. wyświetlenie strony internetowej), zwykle bezpośrednio, jeśli wyrażony jest w języku zrozumiałym dla danej maszyny lub pośrednio.
+</p>
+<p>
+Informatyka (ang. computer science) – nauka ścisła oraz techniczna zajmująca się przetwarzaniem informacji, w tym również technologiami przetwarzania informacji oraz technologiami wytwarzania systemów przetwarzających informacje
+</p>
+<h1>CSS są piękne</h1>
+<p id="linia">
+Kolejnym pseudoelementem jest :first-line, który przeciwieństwie do<br> poprzednika
+obejmuje formatowaniem całą pierwszą linię, a nie tylko pierwszą liter
+</p>
+</body>
+<!--Radek Gryglicki -->
+</html>	

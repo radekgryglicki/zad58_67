@@ -1,0 +1,65 @@
+<html>
+<head>
+</head>
+<body>
+<ul type="square">
+<li> <h1>Pseudoelementem :first-line</h1> </li>
+<p>obejmuje formatowaniem całą pierwszą linię.</p>
+<textarea style="height:210px; width:200px;">
+p
+{
+color:navy;
+font-size:12pt
+}
+
+p:first-line
+{
+color:red;
+font-size:20pt;
+font-weight:bold;
+}
+</textarea>
+<p>Wszystkie paragrafy będą koloru granatowego, o rozmiarze 12pt, lecz pierwsza linia będzie pogrubiona, o wielkości 20pt oraz o kolorze czerownym</p>
+<li> <h1>Pseudoelementy: :after oraz :before</h1> </li>
+<p>Poza :first-letter oraz :first-line w specyfikacji umieszczono jeszcze dwa inne
+pseudoelementy: :after oraz :before. Oba elementy służą do umieszczania tekstu przed i za
+formatowanym elementem strony. Poniżej zamieszczam odpowiedni przykład.</p>
+<textarea style="height:240px; width:250px;">
+p:before
+ {
+ content:"TO SĄ ĆWICZENIA";
+ font-size:15pt;
+ font-style:italic;
+ font-weight:bold;
+ }
+p:after
+ {
+ content:"AUTOR Król Lew";
+ font-size:15pt;
+ font-style:italic;
+ font-weight:bold;
+ }
+</textarea>
+<p>Przed tekstem pojawi się napis TO SĄ ĆWICZENIA napisane kursywom, o rozmiarze 15pt, pogrubione, a po tekscie wyświetli się napis AUTOR Król Lew o rozmiarze 15pt, napisane kursywą, pogrubione</p>
+<li> <h1>Pseudoelement :first-letter</h1> </li>
+<p> pozwala na formatowanie pierwszej litery w bloku
+tekstu.</p>
+<textarea style="height:180px; width:250px;">
+p
+ {
+ color:navy;
+ font-size:30pt;
+ }
+p:first-letter
+ {
+ color:red;
+ font-size:100pt;
+ }
+</textarea>
+<p>Przykładowy arkusz spowoduje powiększenie pierwszej litery do wielkości 100 punktów i
+nadanie jej koloru czerwonego. Powiększona zostanie pierwsza litera każdego akapitu występującego w dokumencie XHTML/HTML.
+</p>
+</ul>
+</body>
+</html>
+<!-- Radek Gryglicki -->
